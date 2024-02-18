@@ -16,24 +16,24 @@ int main()
     double currSavings; // Current savings with interest
     int i; // Loop variable
 
-    // cout << "Enter initial savings: ";
-    // cin >> initialSavings;
+    cout << "Enter initial savings: ";
+    cin >> initialSavings;
 
-    // cout << "Enter interest rate in %: ";
-    // cin >> interestRate;
-    // interestRate /= 100; 
-    // // 5% = 5 / 100
-    // // interestRate /= {interestRate = interestRate / 100}
+    cout << "Enter interest rate in %: ";
+    cin >> interestRate;
+    interestRate /= 100; 
+    // 5% = 5 / 100
+    // interestRate /= {interestRate = interestRate / 100}
 
-    // currSavings = initialSavings;
-    // for (i = 0; i < 10; ++i){
-    //     cout << "$" << currSavings << endl;
-    //     currSavings = currSavings + (currSavings * interestRate); // Note: 5% = 5 / 100
-    // }
+    currSavings = initialSavings;
+    for (i = 0; i < 10; ++i){
+        cout << "$" << currSavings << endl;
+        currSavings = currSavings + (currSavings * interestRate); // Note: 5% = 5 / 100
+    }
 
-    // /*
-    //     Difference between pre-increment and post-increment
-    // */
+    /*
+        Difference between pre-increment and post-increment
+    */
 
     // Pre-increment: increment and use the value
     i = 10;
