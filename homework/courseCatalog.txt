@@ -1,0 +1,8 @@
+1 General study of computer
+2 History of computer
+4 Math 1A
+5 Math 1B
+3 Biology 1
+3 Biology 2
+6 English as a second language 1
+2 English as a second language 2
